@@ -4,7 +4,7 @@ export default function(array, className) {
     let listItems = '';
 
     array.forEach((item) => {
-        listItems += `<li>${item}</li>`;
+        listItems += `<li><a href="#">${item}</a></li>`;
     });
     menu.innerHTML = listItems;
 
