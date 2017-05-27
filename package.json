@@ -9,8 +9,12 @@
     "serv": "static build"
   },
   "devDependencies": {
+    "css-loader": "^0.28.3",
     "html-webpack-plugin": "^2.28.0",
     "node-static": "^0.7.9",
+    "style-loader": "^0.18.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0"

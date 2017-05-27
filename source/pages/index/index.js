@@ -1,3 +1,4 @@
+import './index.styl';
 import createMenu from '../../components/menu/menu';
 
 const menu = createMenu(['Main', 'in', 'index'], 'nav');
